@@ -1,0 +1,35 @@
+# Data files
+data/raw/*
+data/staging/*
+data/output/*
+
+# Sensitive configuration files
+config/*.cfg
+
+# Logs
+logs/*
+
+# Temporary files
+*.tmp
+*.log
+*.csv.part
+*.xlsx~
+*.lock
+
+# Virtual environments (if used)
+.venv/
+venv/
+
+# Cache files
+__pycache__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files (if used)
+.idea/
+.vscode/
+
+# Dependencies (if you use a package manager)
+requirements.txt
